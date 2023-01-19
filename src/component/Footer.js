@@ -3,38 +3,37 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-      <div class="container1" style={{backgroundColor:"rgb(241 241 241)"}} >
+  <div class="footer-container">
   
-  <div class="row" style={{margin:"0px",paddingTop:"30px",padding:"50px"}}>
-    <div class="col-6">
-    <h6 style={{color:"gray",fontSize:"15px"}}>About us</h6>
+  <div class="row">
+    <div class="col-5">
+    <p>About us</p>
     <br></br>
-      <h6 style={{color:"gray",fontSize:"15px"}}>Rubixe™ is a global technology company specializing in disruptive technologies – Artificial Intelligence (AI), Machine Learning, Robotic Process Automation (RPA), BlockChain and Internet of Things (IoT). Rubixe mission to enable businesses to leverage the full potential of disruptive technologies to stay competitive in the market.</h6>
+      <p>Rubixe™ is a global technology company specializing in disruptive technologies – Artificial Intelligence (AI), Machine Learning, Robotic Process Automation (RPA), BlockChain and Internet of Things (IoT). Rubixe mission to enable businesses to leverage the full potential of disruptive technologies to stay competitive in the market.</p>
     </div>
 
-    <div class="col">
-    <h6 style={{color:"gray",fontSize:"15px"}}>MENUS</h6>
+    <div class="col-5">
+    <p>MENUS</p>
     <br></br>
-      <h6 style={{color:"gray",fontSize:"15px"}}>Home</h6> 
-      <h6 style={{color:"gray",fontSize:"15px"}}>Services</h6>
-       <h6 style={{color:"gray",fontSize:"15px"}}>Products</h6>
-      <h6 style={{color:"gray",fontSize:"15px"}}>Career</h6>
+      <p>Home</p> 
+      <p>Services</p>
+       <p>Products</p>
+      <p>Career</p>
     </div>
 
-    <div class="col">
-    <h6 style={{color:"gray",fontSize:"15px"}}>LEARN MORE</h6>
+    <div class="col-5">
+    <p>LEARN MORE</p>
     <br></br>
-     <h6 style={{color:"gray",fontSize:"15px"}}>About</h6>
-     <h6 style={{color:"gray",fontSize:"15px"}}>Contact us</h6>
+     <p>About</p>
+     <p>Contact us</p>
     </div>
-    <div class="col">
+
+    <div class="col-5">
     <p>ADDRESS</p>
-    <p>Novel Tech Park, 1st Floor, Hosur Rd,<br></br> Kudlu gate, Bengaluru, Karnataka<br></br> 560068
-Phone: 0804-717-8999<br></br>
-Email: hi@rubixe.com<br></br>
-SOCIAL MEDIA</p>
-
+    <br></br>
+    <p>Novel Tech Park, 1st Floor, Hosur Rd,Kudlu gate, Bengaluru, Karnataka 560068 Phone: 0804-717-8999 Email: hi@rubixe.com SOCIAL MEDIA</p>
     </div>
+     
   </div>
 </div>
 
